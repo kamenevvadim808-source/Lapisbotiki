@@ -1,0 +1,13 @@
+name: LapisBotiki
+version: 1.0
+main: me.vadim.lapisbotiki.LapisBotiki
+api-version: 1.16
+commands:
+  lapisbotiki:
+    description: Перезагрузить конфигурацию
+    usage: /lapisbotiki reload
+    permission: lapisbotiki.reload
+permissions:
+  lapisbotiki.reload:
+    description: Позволяет перезагружать конфиг
+    default: op
